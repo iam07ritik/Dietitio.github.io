@@ -247,7 +247,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .bg_color {
-  background: #fbfbfd;
+  background: white;
 }
 
 .dk_bg_one {
@@ -501,23 +501,31 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .agency_banner_btn {
   font: 500 14px "Poppins", sans-serif;
   color: #fff;
-  background: #5e2ced;
+  background: #17C7BD;
   -webkit-box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
   box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
   border-radius: 3px;
   padding: 16px 38px;
-  border: 1px solid #5e2ced;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   cursor: pointer;
+  border: 1px solid white;
+
+}
+#tub{
+  background-color: white;
+  color: #17c7bd;
+  border:1px solid #17c7bd;
 }
 
 .agency_banner_btn:hover {
-  color: #5e2ced;
+  color:white;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: transparent;
+  box-shadow: 0px 10px 20px 0px rgba(12, 0, 46, 0.1);
+  border: 1px solid #17C7BD;
+
 }
 
 .agency_banner_btn_two {
@@ -1775,7 +1783,7 @@ margin-left: 45%;
 }
 
 .w_menu .nav-item .nav-link {
-  color: #fff;
+  color: #17c7bd;
 }
 
 .w_menu .nav-item .nav-link:before {
@@ -1816,6 +1824,9 @@ margin-left: 45%;
   min-width: 120px;
   color: white;
   border: none;
+  border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-top-right-radius: 45px;
   text-align: center;
 
 }
@@ -2364,6 +2375,7 @@ margin-left: 45%;
   position: fixed;
   top: 0;
   left: 0;
+  height: 100px;
   width: 100%;
   background-color: white;
   -webkit-box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
@@ -3440,9 +3452,10 @@ margin-left: 45%;
   position: absolute;
   top: 0;
   right: 0;
-  z-index: -1;
-}
+  z-index:0;
+  opacity:0.5;
 
+}
 .agency_content h2 {
   font-size: 50px;
   line-height: 66px;
@@ -7061,7 +7074,7 @@ margin-left: 45%;
 }
 
 .prototype_service_info {
-  padding: 150px 0px 75px;
+  padding: 50px 0px 75px;
   position: relative;
   z-index: 0;
 }
@@ -8642,7 +8655,7 @@ margin-left: 45%;
 
 /*=================== pricing_area_two css ===============*/
 .pricing_area_two {
-  background: #f6f7fa;
+  background:white;
 }
 
 .price_content_two .price_item .tag {
@@ -9558,6 +9571,10 @@ margin-left: 45%;
 }
 
 .partner_info {
+ 
+}
+
+.partner_info {
   text-align: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -9565,10 +9582,18 @@ margin-left: 45%;
 }
 
 .partner_info .logo_item {
-  width: calc(100% / 5);
+  width:200px;
   margin-bottom: 60px;
+  background-color: transparent;
+  margin: 30px;
 }
+#fub{
+  margin-top: 117px;
+}
+.partner_info .logo_item img{
+  vertical-align: middle;
 
+}
 .partner_info .logo_item img {
   max-width: 100%;
   -webkit-filter: contrast(0.3%);
@@ -9677,7 +9702,8 @@ margin-left: 45%;
 
 /*=============== partner_logo_area_three css ================*/
 .partner_logo_area_three {
-  padding: 100px 0px;
+  padding: 150px 0px;
+  background-color:white;
 }
 
 .partner_logo_area_three .partner_info {
@@ -10638,6 +10664,9 @@ margin-left: 45%;
   background-size: contain;
 }
 
+
+
+
 .payment_action_content .pay_icon {
   margin: 0 auto 50px;
 }
@@ -10658,8 +10687,9 @@ margin-left: 45%;
 
 /*=========== sass_partner_logo_area css ==========*/
 .sass_partner_logo_area, .saas_map_area, .saas_subscribe_area {
-  background: #fbfcfe;
+  background: transparent;
   padding: 0px!important;
+  padding-top:150px;
 }
 
 /*=========== saas_subscribe_area css ==========*/
@@ -18925,6 +18955,11 @@ a .h_head:hover {
     opacity: 0;
   }
 }
+.img {
+  -webkit-box-shadow: -39px 40px 46px -19px rgba(214,214,214,1);
+-moz-box-shadow: -39px 40px 46px -19px rgba(214,214,214,1);
+box-shadow: -39px 40px 46px -19px rgba(214,214,214,1);
+}
 
 @-webkit-keyframes animateCloud {
   0% {
@@ -19174,6 +19209,7 @@ a .h_head:hover {
 .erp_features_img_two {
   position: relative;
   padding-top: 50px;
+  margin-left: 50px;
 }
 
 .erp_features_img_two .img_icon {
@@ -19244,7 +19280,6 @@ a .h_head:hover {
 .erp_features_img_two .img_icon.green .pluse_1, .erp_features_img_two .img_icon.green .pluse_2 {
   background: rgba(112, 215, 21, 0.102);
 }
-
 .erp_features_img_two .img_icon.green .pluse_1:before, .erp_features_img_two .img_icon.green .pluse_1:after, .erp_features_img_two .img_icon.green .pluse_2:before, .erp_features_img_two .img_icon.green .pluse_2:after {
   background: rgba(112, 215, 21, 0.13);
 }
@@ -19272,8 +19307,10 @@ a .h_head:hover {
 }
 
 .erp_features_img_two img {
-  -webkit-box-shadow: 0px 25px 100px 0px rgba(1, 1, 64, 0.1);
-  box-shadow: 0px 25px 100px 0px rgba(1, 1, 64, 0.1);
+}
+#kick{
+  padding: 0px!important;
+  margin-left: 150px;
 }
 
 @-webkit-keyframes pulsates {
@@ -19393,8 +19430,12 @@ a .h_head:hover {
 }
 
 .flex-row-reverse .erp_content_two {
-  padding-right: 125px;
+  padding-right:125px;
   padding-left: 0;
+}
+#bud{
+  padding-left: 125px;
+  padding-right:0px;
 }
 
 /*=========== erp_analytics_area css ============*/
@@ -20573,7 +20614,7 @@ a .h_head:hover {
 }
 
 .support_partner_logo_area .logo_item {
-  margin-bottom: 30px;
+  margin: 30px;
 }
 
 .support_help_area .support_item {
@@ -20821,7 +20862,7 @@ a .h_head:hover {
 }
 
 .header_area.navbar_fixed .menu_two .nav_right_btn .login_btn.active:hover, .slider_btn:hover, .price_tab .hover_bg, .f_widget.about-widget .f_list li a:before {
-  background: #00aff0;
+  background: #17C7BD;
 }
 
 .startup_tab .nav-item:nth-child(1) .icon {
@@ -21612,7 +21653,7 @@ a .h_head:hover {
 /*============ home_analytics_banner_area css ============*/
 /*============ h_analytices_features_area css ============*/
 .h_analytices_features_area {
-  padding: 50px 0px 150px;
+  padding: 50px 0px 20px;
 }
 
 .h_analytices_features_area .er_btn {
@@ -21621,7 +21662,7 @@ a .h_head:hover {
 }
 
 .h_analytices_features_item {
-  padding: 120px 0px;
+  padding:20px 0px;
 }
 
 .h_analytices_features_item .h_analytices_img {
