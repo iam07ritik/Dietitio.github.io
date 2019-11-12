@@ -1625,8 +1625,9 @@
         padding-right: 20px;
     }
     .menu_one,.header_area.navbar_fixed .menu_one,.menu_two,.menu_six,.menu_seven{
-        padding: 15px 0px;
+        padding: 0px 0px;
     }
+
     .w_menu .nav-item .nav-link{
         color: #051441;
     }
@@ -1635,6 +1636,10 @@
     }
     .prototype_banner_area{
         padding-top: 140px;
+    }
+\
+    .logo_item img{
+        width:90px;
     }
     .menu_four .menu > .nav-item .nav-link,.menu_five .menu > .nav-item .nav-link,.menu_six .menu > .nav-item .nav-link,.menu_seven .menu .nav-item .nav-link{
         color: #051441;
@@ -4275,6 +4280,7 @@
     }
     .price_tab,.price_tab .nav-item{
         display: block;
+        border-radius: 20px;
     }
     .price_tab .nav-item .nav-link.active{
         background: #00aff0;
@@ -4308,7 +4314,15 @@
         top: 20px;
     }
     .price_tab.price_tab_two .nav-item .nav-link.active{
-        background: #5f2eed;
+        background: #17C7BD;
+        border-radius: 20px;
+    }
+    #super{
+        margin-left: 19%!important;
+    }
+    #spam{
+        width: 220px;
+        height: auto;
     }
     .get_content .app_btn{
         margin-top: 5px;

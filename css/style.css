@@ -8524,7 +8524,7 @@ margin-left: 45%;
 .price_tab .nav-item .nav-link.active {
   border: 0px;
   border-radius: 45px;
-  background: transparent;
+  background: #17C7BD;
   color: #fff;
 }
 
@@ -11211,10 +11211,7 @@ margin-left: 45%;
 }
 
 .app_screenshot_area .app_screenshot_slider .item .screenshot_img {
-  border: 1px solid #f4f4f9;
-  border-radius: 4px;
-  -webkit-box-shadow: 0px 6px 16px 0px rgba(12, 0, 46, 0.06);
-  box-shadow: 0px 6px 16px 0px rgba(12, 0, 46, 0.06);
+
 }
 
 .app_screenshot_area .app_screenshot_slider .item .screenshot_img img {
@@ -11231,7 +11228,7 @@ margin-left: 45%;
 }
 
 .app_screenshot_area .app_screenshot_slider .owl-dots .owl-dot.active span {
-  background: #653cee;
+  background: #17C7BD;
 }
 
 .app_screenshot_area .app_screenshot_slider .owl-prev, .app_screenshot_area .app_screenshot_slider .owl-next {
@@ -23054,7 +23051,7 @@ box-shadow: -39px 40px 46px -19px rgba(214,214,214,1);
 }
 
 .payment_footer_area_two {
-  padding: 60px 0px;
+  padding: 0px 0px;
 }
 
 /*============ new_footer_area css ===========*/
