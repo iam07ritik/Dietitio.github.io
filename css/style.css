@@ -11213,13 +11213,16 @@ margin-left: 45%;
 .app_screenshot_area .app_screenshot_slider .item .screenshot_img {
 
 }
+.footer_top_six{
+  padding-top: 60px;
+}
 
 .app_screenshot_area .app_screenshot_slider .item .screenshot_img img {
   max-width: 100%;
 }
 
 .app_screenshot_area .app_screenshot_slider .owl-dots {
-  margin-top: 40px;
+  margin-top: -5px;
 }
 
 .app_screenshot_area .app_screenshot_slider .owl-dots .owl-dot span {

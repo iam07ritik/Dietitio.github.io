@@ -4292,6 +4292,11 @@
     .app_img .phone_img{
         max-width: 55%;
     }
+    .owl-carousel, .owl-item        height:150px;
+    }
+    #flap{
+        height: 182px;
+    }
     .app_img .text_bg{
         max-width: 60%;
     }
