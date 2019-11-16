@@ -1189,6 +1189,10 @@
     }
     .protype_img{
         margin-top: 50px;
+        margin-right: 61px;
+    }
+    #grp{
+        margin-left: 0px;
     }
     .partner_logo .p_logo_item{
         width: calc(100% / 4);
@@ -4291,8 +4295,6 @@
     }
     .app_img .phone_img{
         max-width: 55%;
-    }
-    .owl-carousel, .owl-item        height:150px;
     }
     #flap{
         height: 182px;

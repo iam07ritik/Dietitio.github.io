@@ -168,6 +168,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .f_size_15 {
   font-size: 15px;
 }
+#grp{
+  margin-left:10%;
+}
+
+
 
 .l_height60 {
   line-height: 60px;
@@ -198,7 +203,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .f_p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 /*=========== font-weight ==============*/
@@ -247,7 +252,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .bg_color {
-  background: white;
+  background: #d0f6f3;
 }
 
 .dk_bg_one {
@@ -8655,7 +8660,7 @@ margin-left: 45%;
 
 /*=================== pricing_area_two css ===============*/
 .pricing_area_two {
-  background:white;
+  background:#d0f6f3;
 }
 
 .price_content_two .price_item .tag {
@@ -11106,6 +11111,19 @@ margin-left: 45%;
   z-index: -1;
   top: 0;
 }
+    
+
+.wrapper {
+  padding: 50px 0;
+  background: #fff;
+}
+
+#canvas {
+  display: block;
+  margin: 0 auto;
+}
+        
+
 
 .seo_fact_info .seo_fact_item {
   width: 200px;
